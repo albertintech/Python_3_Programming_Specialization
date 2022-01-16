@@ -1,1 +1,0 @@
-"""Write code to create a list of integers from 0 through 52 and assign that list to the variable numbers. You should use the Python range function and don’t forget to covert the result to a list – do not type out the whole list yourself."""
