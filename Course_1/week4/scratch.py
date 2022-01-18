@@ -45,7 +45,39 @@
 # print(id(a))
 # print(id(b))
 
-alist = [4, 2, 8, 6, 5]
-blist = alist * 2
-blist[3] = 999
-print(alist)
+# alist = [4, 2, 8, 6, 5]
+# blist = alist * 2
+# blist[3] = 999
+# print(alist)
+
+mylist = []
+print(id(mylist))
+mylist.append(5)
+mylist.append(27)
+mylist.append(3)
+mylist.append(12)
+mylist.append(99)
+# print(mylist)
+
+mylist.insert(1, 12)
+# print(mylist)
+
+print(mylist.count(12))  # counts the occurances of 12 => 2
+
+# Returns the index of the first position of argument
+print("What is the index of 99? Answer:", mylist.index(99))
+print(mylist.count(5))
+print(id(mylist))
+
+# mylist.reverse()
+# print(mylist)
+
+# mylist.sort()
+# print(mylist)
+
+# mylist.remove(5)
+# print(mylist)
+
+# lastitem = mylist.pop()
+# print(lastitem)
+# print(mylist)
