@@ -14,3 +14,6 @@ print(u)
 
 v = 'velociraptor'
 print(v.index('r'))
+
+person = input('Enter your name: ')
+print('Hello {}!'.format(person))
