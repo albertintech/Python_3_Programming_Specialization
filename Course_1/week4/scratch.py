@@ -39,9 +39,27 @@
 #     count += 1
 # print(numbs)
 
-lst_nums = [4, 29, 5.3, 10, 2, 1817, 1967, 9, 31.32]
-larger_nums = []
-for n in lst_nums:
-    x = n*2
-    larger_nums.append(x)
-print(larger_nums)
+# lst_nums = [4, 29, 5.3, 10, 2, 1817, 1967, 9, 31.32]
+# larger_nums = []
+# for n in lst_nums:
+#     x = n*2
+#     larger_nums.append(x)
+# print(larger_nums)
+
+# s = input("Enter some text: ")
+# ac = ""
+# for c in s:
+#     ac = ac + c + "-" + c + "-"
+# print(ac)
+
+str1 = "I love python"
+chars = []
+for x in str1:
+    chars.append(x)
+print(chars)
+
+output = ""
+for i in range(35):
+    output = output + 'a'
+print(output)
+print(len(output))
