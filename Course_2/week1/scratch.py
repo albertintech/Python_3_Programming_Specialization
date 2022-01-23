@@ -17,9 +17,9 @@
 file_obj = open("squares.txt", "w")
 for number in range(13):
     square = number * number
-    file_obj.write(str(square))
-    file_obj.write('\n')
+    file_obj.write(str(square) + '\n')
+    # file_obj.write('\n')
 file_obj.close()
 
 new_file_obj = open("squares.txt", "r")
-print(new_file_obj.read()[:10])
+print(new_file_obj.read())
