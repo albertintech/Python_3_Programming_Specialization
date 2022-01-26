@@ -27,3 +27,18 @@ inventory['bananas'] += 200
 print(inventory)
 numItems = len(inventory)
 print(numItems)
+
+for key in inventory.keys():
+    print(key, "has the value", inventory[key])
+
+keys = list(inventory.keys())
+print(keys)
+
+for k in inventory:
+    print("Got key", inventory[k])
+
+print(list(inventory.values()))  # list of values
+print(list(inventory.items()))  # list of tuples of each key-value pair
+
+for k, v in inventory.items():
+    print("Got", k, "that maps to", v)
