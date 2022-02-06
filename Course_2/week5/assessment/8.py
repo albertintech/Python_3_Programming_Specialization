@@ -7,3 +7,8 @@ groceries = {'apples': 5,
              'granola bars': 15,
              'onions': 7, 'rice': 1,
              'peanut butter': 2, 'spinach': 9}
+
+most_needed = sorted(
+    groceries.keys(), key=lambda k: groceries[k], reverse=True)
+
+print(most_needed)
