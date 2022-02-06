@@ -2,3 +2,9 @@
 
 medals = {'Japan': 41, 'Russia': 56, 'South Korea': 21,
           'United States': 121, 'Germany': 42, 'China': 70}
+
+alphabetical = sorted(medals.keys(), key=lambda k: medals[k], reverse=True)
+
+top_three = alphabetical[:3]
+
+print(top_three)
