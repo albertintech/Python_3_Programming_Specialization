@@ -1,0 +1,1 @@
+"""A Scratch File"""
