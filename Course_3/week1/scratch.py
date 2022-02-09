@@ -1,5 +1,7 @@
 nested1 = [['a', 'b', 'c'], ['d', 'e'], ['f', 'g', 'h']]
 y = nested1[1]
+
+
 print(y)
 print(y[0])
 
