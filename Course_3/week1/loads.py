@@ -1,4 +1,7 @@
-"""17.3. Processing JSON results"""
+"""
+17.3. Processing JSON results
+json.loads() takes a string as input and produces a python object (a dictionary or a list) as output.
+"""
 import json
 
 a_string = '\n\n\n{\n "resultCount":25,\n "results": [\n{"wrapperType":"track", "kind":"podcast", "collectionId":10892}]}'
