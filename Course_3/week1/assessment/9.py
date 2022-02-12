@@ -5,3 +5,12 @@ athletes = [['Phelps', 'Lochte', 'Schooling', 'Ledecky', 'Franklin'],
             ['Biles', 'Douglas', 'Hamm', 'Raisman', 'Mikulak', 'Dalton']]
 
 t = []
+other = []
+for lst in athletes:
+    for athlete in lst:
+        if 't' in athlete:
+            t.append(athlete)
+        else:
+            other.append(athlete)
+print(t)
+print(other)
