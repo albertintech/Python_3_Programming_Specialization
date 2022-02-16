@@ -2,3 +2,8 @@
 
 l1 = ['left', 'up', 'front']
 l2 = ['right', 'down', 'back']
+l3 = []
+
+l3 = list(zip(l1, l2))
+opposites = list(filter(lambda s: len(s[0]) > 3 and len(s[1]) > 3, l3))
+print(opposites)
