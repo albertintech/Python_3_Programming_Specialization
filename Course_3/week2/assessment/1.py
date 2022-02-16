@@ -2,3 +2,7 @@
 
 lst_check = ['plums', 'watermelon', 'kiwi', 'strawberries',
              'blueberries', 'peaches', 'apples', 'mangos', 'papaya']
+
+# things4 = map((lambda value: 4*value), things)
+map_testing = list(map((lambda fruit: "Fruit: " + fruit), lst_check))
+print(map_testing)
