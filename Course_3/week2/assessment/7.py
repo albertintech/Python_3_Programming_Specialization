@@ -5,3 +5,7 @@ species = ['golden retriever', 'white tailed deer', 'black rhino', 'brown squirr
 
 population = [10000, 90000, 1000, 2000000, 500000, 500,
               1200, 8000, 12000, 2300, 7500, 100, 1800, 9500, 125000]
+
+pop_info = list(zip(species, population))
+endangered = [ele[0] for ele in pop_info if ele[1] < 2500]
+print(endangered)
