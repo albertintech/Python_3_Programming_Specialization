@@ -18,7 +18,3 @@ class City:
 
     def __str__(self):
         return '{}, {} (pop: {})'.format(self.name, self.state, self.pop)
-
-
-cities = [City(n, p, s) for (n, p, s) in city_tuples]
-print(cities)
